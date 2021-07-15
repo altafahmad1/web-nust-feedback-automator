@@ -1,0 +1,16 @@
+textarea {
+  resize: none;
+}
+
+select {
+  -webkit-appearance: menulist-button;
+  color: black;
+}
+
+select option {
+  color: black;
+}
+
+select:invalid {
+  color: #6b7280;
+}

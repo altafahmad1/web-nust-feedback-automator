@@ -1,0 +1,20 @@
+{
+    "name": "nust-feedback-form-automator",
+    "version": "1.0.0",
+    "description": "A CLI that automatically fills the Feedback forms for you, thus saving you the trouble of filling them during exam times.",
+    "main": "index.js",
+    "author": {
+        "name": "Altaf Ahmad",
+        "email": "altaf.ahmad23@gmail.com",
+        "url": "https://github.com/altafahmad1"
+    },
+    "bin": {
+        "nust-form-automate": "index.js"
+    },
+    "license": "MIT",
+    "dependencies": {
+        "ejs": "^3.1.6",
+        "express": "^4.17.1",
+        "puppeteer": "^10.1.0"
+    }
+}
